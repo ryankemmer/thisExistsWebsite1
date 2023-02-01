@@ -1,4 +1,4 @@
-import '../styles/LinkPage.css';
+//import '../styles/LinkPage.css';
 
 function Paradise() {
   return (
