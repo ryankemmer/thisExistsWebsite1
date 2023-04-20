@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.557850c2.css",
+    "main.js": "/static/js/main.b58fde4f.js",
+    "static/media/sal3.jpeg": "/static/media/sal3.f24c976fa7798edaaf1d.jpeg",
+    "static/media/CostaRica.jpeg": "/static/media/CostaRica.5808e87b5478cdf1751c.jpeg",
+    "static/media/Sedona.jpeg": "/static/media/Sedona.87e80c7b6e9bed4853f9.jpeg",
+    "static/media/rain.jpeg": "/static/media/rain.c3558ff2bcfe66e7cfa0.jpeg",
+    "static/media/Tucson.jpg": "/static/media/Tucson.fff80e2394509bb0a794.jpg",
+    "static/media/FluidBold-L37M5.ttf": "/static/media/FluidBold-L37M5.90d2b503286322115d64.ttf",
+    "index.html": "/index.html",
+    "main.557850c2.css.map": "/static/css/main.557850c2.css.map",
+    "main.b58fde4f.js.map": "/static/js/main.b58fde4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.557850c2.css",
+    "static/js/main.b58fde4f.js"
+  ]
+}
