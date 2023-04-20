@@ -1,0 +1,105 @@
+@font-face {
+    font-family: thisExistsFont;
+    src: url(../../public/fonts/FluidBold-L37M5.ttf);
+ }
+
+
+.paradise  {
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    background: url('../assets/Paradise.jpeg');
+    background-size: cover;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+.logo {
+    font-family: thisExistsFont;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 8em;
+    line-height: 1em;
+    padding-bottom: 50px;
+}
+
+:root {
+    --bgColor: #223344;
+    --bgColor2: #090a0f;
+    --accentColor: #FFF;
+    --font: 'Karla', sans-serif;
+    --delay: .3s;
+}
+
+#links {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin-top: 30px;
+    margin: 40px auto;
+}
+
+.link {
+    position: relative;
+    background-color: transparent;
+    color: var(--accentColor);
+    cursor: pointer;
+    border: solid var(--accentColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px; /* 17px */
+    text-decoration: none;
+    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+    .link:hover {
+        background-color: var(--accentColor);
+        color: var(--bgColor);
+    }
+}
+
+.link:active {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+    .logo {
+        font-size: 7em;
+    }
+    #links {
+        padding-top: 20px;
+    }
+    .link {
+        padding:25px;
+    }
+}
+
+img {
+    height: 13em;
+    width: 13em;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
