@@ -177,7 +177,8 @@
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0.85);
     color:#FFF;
-    text-align: center;
+    text-align: left;
+    padding: 2em;
     vertical-align: middle; 
     display: flex;
     flex-direction: column;
