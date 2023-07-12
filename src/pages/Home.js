@@ -97,8 +97,6 @@ function Home() {
           <p>The project began just from messing around with keyboards, guitars, and drums in my house.</p>
             <p>The composition style of this project is something I have worked on my whole life. I try to make music that is  melodically thought provoking, yet rhythmic-centric. 
             The indie rock "sound" is something I have cultivated over the last couple years playing and recording indie rock bands. 
-            My lyrics focus around existential ideas like life and death, 
-            because I think it provokes interesting and sometimes confusing ideas to the listener. 
           </p>
           <p>Stay tuned for new music in 2023.</p>
         </div>
