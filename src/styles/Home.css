@@ -230,11 +230,13 @@
         font-size: 7em;
     }
     .logo-sub {
-        font-size: 7em;
-        padding-top: 50px;
+        font-size: 5em;
+        padding-top: 20px;
+        padding-bottom: 70px;
     }
     #links {
         padding-top: 20px;
+        margin:0px !important;
     }
     .link {
         padding:25px;

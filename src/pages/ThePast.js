@@ -1,10 +1,8 @@
 import React from "react";
 import '../styles/Subpages.css';
-import Navbar from '../components/navbar';
 import Stars from '../components/stars';
-import { Link } from "react-router-dom";
 
-function Paradise() {
+function ThePast() {
 
   return (
     <div>
@@ -12,16 +10,16 @@ function Paradise() {
         <Stars/>
 
         <div class="logo">
-          Paradise
+          The Past
         </div>
-        <img src={require('../assets/albumArt/Paradise.jpeg')}/>
+        <img src={require('../assets/albumArt/ThePast.jpeg')}/>
 
         <div id="links">
-        <a className="link" target="_blank">Listen On SoundCloud</a>
+          <a className="link" target="_blank">Listen On SoundCloud</a>
         </div>
       </div>
     </div>
   );
 }
 
-export default Paradise;
+export default ThePast;

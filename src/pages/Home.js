@@ -64,10 +64,10 @@ function Home() {
             Music
         </div>
         <div id="songs">
+          <RRLink class="songText" target="_blank" to="/bleedingout"><FaMusic />   Bleeding Out</RRLink>
+          <RRLink class="songText" target="_blank" to="/3am"><FaMusic />   3 AM</RRLink>
+          <RRLink class="songText" target="_blank" to="/thepast"><FaMusic />   The Past</RRLink>
           <RRLink class="songText" target="_blank" to="/paradise"><FaMusic />   Paradise</RRLink>
-          <RRLink class="songText"><FaMusic />   3 AM</RRLink>
-          <RRLink class="songText"><FaMusic />   Coma</RRLink>
-          <RRLink class="songText"><FaMusic />   The Past</RRLink>
         </div>
       </div>
 
@@ -78,7 +78,7 @@ function Home() {
             Videos
         </div>
         <div class="video-container">
-          <YoutubeEmbed embedId="3ICDYsIveM4" />
+          <YoutubeEmbed embedId="RLzBcq_G0_Y" />
         </div>
       </div>
 
@@ -109,9 +109,9 @@ function Home() {
             More
         </div>
         <div id="links">
-        <a class="link">TikTok</a>
-        <a class="link">YouTube</a>
-        <a class="link">Instagram</a>
+        <a class="link" href="https://www.tiktok.com/@this____exists">TikTok</a>
+        <a class="link" href="https://www.youtube.com/@ThisExistsMusic">YouTube</a>
+        <a class="link"href="https://www.instagram.com/ryankemmer_">Instagram</a>
         </div>
       </div>
 
