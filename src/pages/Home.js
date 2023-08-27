@@ -3,11 +3,17 @@ import '../styles/Home.css';
 import Navbar from '../components/navbar';
 import Stars from '../components/stars';
 import YoutubeEmbed from '../components/youtubeEmbed';
+import SpotifyPlayer from 'react-spotify-player';
 import { Link } from "react-scroll";
 import { Link as RRLink } from "react-router-dom";
 import { FaMusic } from 'react-icons/fa';
 
 function Home() {
+
+  const size = {
+    width: '100%',
+    height: '100%',
+  };
 
   return (
     <div>
@@ -64,10 +70,14 @@ function Home() {
             Music
         </div>
         <div id="songs">
-          <RRLink class="songText" target="_blank" to="/bleedingout"><FaMusic />   Bleeding Out</RRLink>
-          <RRLink class="songText" target="_blank" to="/3am"><FaMusic />   3 AM</RRLink>
-          <RRLink class="songText" target="_blank" to="/thepast"><FaMusic />   The Past</RRLink>
-          <RRLink class="songText" target="_blank" to="/paradise"><FaMusic />   Paradise</RRLink>
+        <div class="spotify-container">
+        <SpotifyPlayer
+            uri="spotify:artist:6fWV1FY6CUofKI4qcaHItc"
+            size= {size}
+            view='list'
+            theme='black'
+          />
+        </div>
         </div>
       </div>
 
@@ -95,7 +105,7 @@ function Home() {
             The independent project is lead by multinstrumentalist Ryan Kemmer,
              who is based out of Phoenix, Arizona.</p>
           <p>The project began just from messing around with keyboards, guitars, and drums in my house.</p>
-            <p>The composition style of this project is something I have worked on my whole life. I try to make music that is  melodically thought provoking, yet rhythmic-centric. 
+            <p>The composition style of this project is something I have worked on my whole life. I make music that is centered around rhythm but also melodically thought provoking. 
             The indie rock "sound" is something I have cultivated over the last couple years playing and recording indie rock bands. 
           </p>
           <p>Stay tuned for new music in 2023.</p>
